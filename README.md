@@ -31,21 +31,22 @@ Student ID: 016668951 <br/>
 * Verify the output in the system message log by running the below command<br/>
   sudo dmesg <br/><br/>
 
-Output log of Pinbased Controls
-![Picture1](https://user-images.githubusercontent.com/111547793/198863461-e7ffbbf5-af3b-40af-91e6-32bf9b5cb668.png)<br/>
+  Output log of Pinbased Controls
+  ![Picture1](https://user-images.githubusercontent.com/111547793/198863461-e7ffbbf5-af3b-40af-91e6-32bf9b5cb668.png)<br/>
 
-Output log of Primary procbased controls 
-![Picture2](https://user-images.githubusercontent.com/111547793/198863538-97c9a9cc-e383-4170-9d40-d1612c38c8e0.png)<br/>
+  Output log of Primary procbased controls 
+  ![Picture2](https://user-images.githubusercontent.com/111547793/198863538-97c9a9cc-e383-4170-9d40-d1612c38c8e0.png)<br/>
 
-As Activate Tertiary control bit is not set, The Tertiary Control Capabilities are unavailable. The Secondary Control Capabilities are as shown below <br/>
-Output log of Secondary procbased Controls
-![Picture3](https://user-images.githubusercontent.com/111547793/198863582-1ea46cf8-431b-4f36-972d-ab9882400308.png) <br/>
+* As the "Activate Tertiary controls" control is not set in primary procbased controls, the tertiary control capabilities are unavailable. <br/><br/>
+* As the "Activate Secondary controls" control is set in primary procbased controls, the secondary control capabilities are available as shown below<br/>
+  Output log of Secondary procbased Controls
+  ![Picture3](https://user-images.githubusercontent.com/111547793/198863582-1ea46cf8-431b-4f36-972d-ab9882400308.png) <br/>
 
-Output log of Exit controls
-![Picture4](https://user-images.githubusercontent.com/111547793/198863636-5e1ec0b2-aae6-45cf-b738-ae2a4eaa33ba.png) <br/>
+  Output log of Exit controls
+  ![Picture4](https://user-images.githubusercontent.com/111547793/198863636-5e1ec0b2-aae6-45cf-b738-ae2a4eaa33ba.png) <br/>
 
-Output log of Entry controls
-![Picture5](https://user-images.githubusercontent.com/111547793/198863643-9882c2e3-b147-4648-ac52-560f577eb685.png) <br/>
+  Output log of Entry controls
+  ![Picture5](https://user-images.githubusercontent.com/111547793/198863643-9882c2e3-b147-4648-ac52-560f577eb685.png) <br/>
 
 * Run the below command to remove the new kernel module<br/>
   sudo rmmod cmpe283-1.ko<br/><br/>
