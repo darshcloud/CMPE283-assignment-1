@@ -223,7 +223,7 @@ detect_vmx_features(void)
 	report_capability(primaryProcbased, 22, lo, hi);
 	
 	/* Secondary Procbased controls */
-	c = &cap[21];
+	c = &primaryProcbased[21];
 	if(hi & (1 << c->bit)) {
 		rdmsr(IA32_VMX_PROCBASED_CTLS2, lo, hi);
 		pr_info("Secondary procbased Controls MSR: 0x%llx\n",
@@ -232,7 +232,7 @@ detect_vmx_features(void)
 	}
 	
 	/* Tertiary Procbased controls */
-	c = &cap[9];
+	c = &primaryProcbased[9];
 	if(hi & (1 << c->bit)) {
 	rdmsr(IA32_VMX_PROCBASED_CTLS3, lo, hi);
 	pr_info("Tertiary procbased Controls MSR: 0x%llx\n",
