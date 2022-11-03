@@ -4,9 +4,9 @@ To create a Linux kernel module that will query various MSRs to determine
 virtualization features available in your CPU. This module will report (via the system message log) the
 features it discovers.
 
-Professor's Name: Michael Larkin <br/>
-Student's Name: Darshini Venkatesha Murthy Nag <br/>
-Student ID: 016668951 <br/>
+### Professor's Name: Michael Larkin <br/>
+### Submitted By: Darshini Venkatesha Murthy Nag <br/>
+### Student ID: 016668951 <br/>
 
 ## Steps used to complete the assignment
 
