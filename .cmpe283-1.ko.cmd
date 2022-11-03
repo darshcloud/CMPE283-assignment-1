@@ -1,0 +1,1 @@
+cmd_/home/darshini/Desktop/CMPE283-assignment-1/cmpe283-1.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/darshini/Desktop/CMPE283-assignment-1/cmpe283-1.ko /home/darshini/Desktop/CMPE283-assignment-1/cmpe283-1.o /home/darshini/Desktop/CMPE283-assignment-1/cmpe283-1.mod.o;  true
