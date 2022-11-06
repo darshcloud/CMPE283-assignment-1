@@ -11,7 +11,7 @@ features it discovers.
 ## Steps used to complete the assignment
 
 * Download the cmpe-281.c and MakeFile from Canvas.<br/><br/>
-* Implement the code changes in cmpe-281.c file and commit the changes to the github repository. <br/><br/>
+* Implement the code changes in cmpe-281.c file. Commit the cmpe-281.c and MakeFile to the GitHub repository. <br/><br/>
 * Install the VMware Workstation player or VMware Workstation Pro on your Windows machine. <br/><br/>
 * Create a Ubuntu VM with virtual disk size 100GB. Customize the hardware settings under the processor tab and check the checkbox Virtualize Intel VT-x/EPT or AMD-V/RVI to enable nested virtualization.<br/><br/>
 * Power on the Virtual Machine <br/><br/>
@@ -32,21 +32,21 @@ features it discovers.
   sudo dmesg <br/><br/>
 
   Output log of Pinbased Controls
-  ![Picture1](https://user-images.githubusercontent.com/111547793/198863461-e7ffbbf5-af3b-40af-91e6-32bf9b5cb668.png)<br/>
+  ![Pinbased](https://user-images.githubusercontent.com/111547793/200163080-3ec9d2fe-1f49-4b3a-91f6-5d372ee467bc.png)<br/>
 
   Output log of Primary procbased controls 
-  ![Picture2](https://user-images.githubusercontent.com/111547793/198863538-97c9a9cc-e383-4170-9d40-d1612c38c8e0.png)<br/>
+  ![PrimaryProcbased](https://user-images.githubusercontent.com/111547793/200163196-0f52b7b1-d70e-46d2-bbc9-dfe792b10554.png)<br/>
 
 * As the "Activate Tertiary controls" control is not set in primary procbased controls, the tertiary control capabilities are unavailable. <br/><br/>
 * As the "Activate Secondary controls" control is set in primary procbased controls, the secondary control capabilities are available as shown below<br/>
   Output log of Secondary procbased Controls
-  ![Picture3](https://user-images.githubusercontent.com/111547793/198863582-1ea46cf8-431b-4f36-972d-ab9882400308.png) <br/>
+  ![SecondaryProcbased](https://user-images.githubusercontent.com/111547793/200163209-a0e12c88-2a7c-431b-b613-6399b5cd148c.png)<br/>
 
   Output log of Exit controls
-  ![Picture4](https://user-images.githubusercontent.com/111547793/198863636-5e1ec0b2-aae6-45cf-b738-ae2a4eaa33ba.png) <br/>
+  ![ExitControls](https://user-images.githubusercontent.com/111547793/200163223-a77beea5-ac70-45b3-80c1-6c51a728ce5f.png)<br/>
 
   Output log of Entry controls
-  ![Picture5](https://user-images.githubusercontent.com/111547793/198863643-9882c2e3-b147-4648-ac52-560f577eb685.png) <br/>
+  ![EntryControls](https://user-images.githubusercontent.com/111547793/200163243-820b2d72-d1cd-413c-a3b7-c706f68a5fa9.png)<br/>
 
 * Run the below command to remove the new kernel module<br/>
   sudo rmmod cmpe283-1.ko<br/><br/>
