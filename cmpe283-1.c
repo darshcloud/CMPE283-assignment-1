@@ -87,7 +87,7 @@ struct capability_info secondaryProcbased[28] =
 	{ 5, "Enable VPID" },
 	{ 6, "WBINVD exiting" },
 	{ 7, "Unrestricted guest" },
-	{ 8, "CAPIC-register virtualization" },
+	{ 8, "APIC-register virtualization" },
 	{ 9, "Virtual-interrupt delivery" },
 	{ 10, "PAUSE-loop exiting" },
 	{ 11, "RDRAND exiting" },
@@ -150,7 +150,7 @@ struct capability_info exitControls[17] =
  * VM Entry Controls capabilities
  * SDM volume 3, section 24.8.1
  */
-struct capability_info entryControls[] =
+struct capability_info entryControls[13] =
 {
 	{ 2, "Load debug controls" },
 	{ 9, "IA-32e mode guest" },
